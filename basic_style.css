@@ -4,7 +4,6 @@ body{
   	background-size: cover;
   	background-repeat: none;
   	color:whitesmoke;
-  	border:1px solid red;
 }
 .head{
 	margin-top:20px;
@@ -86,12 +85,7 @@ h1{
 * {
     box-sizing: border-box;
 }
-
-<<<<<<< HEAD
 @media only screen and (max-width: 1080px){
-=======
-@media only screen and (max-width: 700px){
->>>>>>> eb84ed74c4241d91bd0f6f563b88ac21c5b3ec82
 	ul{
 		padding-left: 0px;
 		width:100%;
