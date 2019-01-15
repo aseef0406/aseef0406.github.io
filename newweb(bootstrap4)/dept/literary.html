@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>literary and arts</title>
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="/image/ico" href="../images/favicon.ico"/>
+
+    <!-- CSS
+    ================================================== -->       
+    <!-- Bootstrap css file-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link href="../css/font-awesome.min.css" rel="stylesheet">
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="../css/animate.css">  
+    <link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="../css/style2.css" rel="stylesheet">
+   
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+	<!-- js for anim -->
+	<script type="text/javascript" src="../js/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/wow.min.js">
+	
+		new WOW().init();
+	</script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--Javscript jquery for hiding and viewing-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   $("#literary").hide();
+    $("#arts").hide()
+  $("#lit").click(function(){
+    $("#literary").show();
+    $("#arts").hide();
+  });
+  $("#artscont").click(function(){
+    $("#arts").show();
+    $("#literary").hide();
+  });
+});
+</script>
+    <style type="text/css">
+      
+      img {
+    max-width: 100%;
+    max-height: 100%;
+    }
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+.cards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('../images_2k19/literary.jpg');
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('../images_2k19/arts.jpg');
+}
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 200px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card1 {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 33.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.card1:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    padding-left: 8px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.card1:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card1:hover{
+    background-color: transparent;
+    position: relative;
+}
+
+.card1:hover {
+    opacity: 1;
+}
+
+  </style>
+  </head>
+  <body> 
+     
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation"> 
+          
+          <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <!-- LOGO -->
+
+            <!-- TEXT BASED LOGO -->
+            <a class="navbar-brand" href="#">B E C T A G O N<span> 2 k 1 9</span></a>
+            
+            <!-- IMG BASED LOGO  -->
+            <!--  <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a> --> 
+            
+                   
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+              <li><a href="../index.jsp">Home</a></li>
+              <li><a href="../index.jsp#team">Departments</a></li>
+              <li><a href="../index.jsp#service">Spot Events</a></li> 
+              <li><a href="../index.jsp#workshops">Workshops</a></li> 
+              <li><a href="sports.html">Sports</a></li> 
+              <li><a href="culturals.html">Culturals</a></li>
+              <li><a href="">Literary</a></li>
+              <li><a href="../index.jsp#contact">Contact Us</a></li>
+            </ul>           
+          </div>
+        </nav> 
+        <!-- header -->
+      <div class="row banner">
+        
+         <div class="col-lg-12 col-md-12 col-sm-12">
+          
+          <h3>Literary and Arts</h3>
+          
+         </div>
+        
+      </div>
+		<!--body-->
+    <div class="contact_us_culturals">
+    
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+        
+          <p>Contact:<br/>M.Murali Manohar    -8885616653<br/>K.Bharat Sai Kumar  -8125566563</p>
+        
+        </div>
+      
+      </div>
+    
+    </div>
+	
+		<div class="container" style="text-align:center;margin-top:2%">
+      <div class="row" style="padding-bottom:5%">
+          <!--<div class="col-sm-2 col-md-2 col-lg-2"></div>
+          <div class="col-sm-3 col-md-3 col-lg-3" style=""><img src="../images/o.png" alt="o" style="border-radius:100%;"/></div>
+          <div class="col-sm-1 col-md-1 col-lg-1"></div>
+          <div class="col-sm-1 col-md-1 col-lg-1"></div>
+          <div class="col-sm-3 col-md-3 col-lg-3" style=""><img src="../images/o.png" alt="o" style="border-radius:100%;"/></div>
+        -->
+          <section class="cards">
+<article class="card1 card--1" id="lit">
+  <div class="card__info-hover">    
+  </div>
+  <div class="card__img"></div>
+  <a href="#" class="card_link">
+     <div class="card__img--hover"></div>
+   </a>
+  <div class="card__info">
+    
+    <h3 class="card__title">Literary</h3>
+  </div>
+</article>
+  
+  
+<article class="card1 card--2" id="artscont">
+  <div class="card__info-hover">    
+  </div>
+  <div class="card__img"></div>
+  <a href="#" class="card_link">
+     <div class="card__img--hover"></div>
+   </a>
+  <div class="card__info">
+    
+    <h3 class="card__title">Arts</h3>
+  </div>
+</article>  
+  
+  
+  
+  </section>
+      </div>
+      <div class=container-fluid">
+      <div class="row" id="literary" style="padding-top:5%">
+        <!--<div class="col-sm-2 col-md-2 col-lg-2" style="height:100px">
+          <img src="../images/turn.jpg" alt="tc.jpg" style="border-radius:100%"/>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/cas.jpg" alt="cas" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/arbit writing.jpg" alt="PPT" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/arbit writing.jpg" alt="PPT" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/cas.jpg" alt="cas" style="border-radius:100%"/></div>-->
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
+          <div class="card" style="/*border:1px solid black*/">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">General Quiz</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">LIT Hunt</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Floor Crossing</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Stand Up Comedy</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Dear Diary</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Ad-Zap</p></a>
+              </div>
+          </div>
+        </div>
+      </div>
+		
+    <!---Arts-->
+    <div class="row" id="arts" style="padding-top:5%">
+        <!--<div class="col-sm-2 col-md-2 col-lg-2" style="height:100px">
+          <img src="../images/turn.jpg" alt="tc.jpg" style="border-radius:100%"/>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/cas.jpg" alt="cas" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/arbit writing.jpg" alt="PPT" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/arbit writing.jpg" alt="PPT" style="border-radius:100%"/></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="height:100px"><img src="../images/cas.jpg" alt="cas" style="border-radius:100%"/></div>-->
+        <div class="col-sm-1 col-md-1 col-lg-1" style="/*height:100px*/"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
+          <div class="card" style="/*border:1px solid black*/">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Theme Painting</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Cartooning</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Rangoli</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Face Painting</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Diya Painting</p></a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+  </div>
+  
+	<!--	<div class="center_img lit">
+			<img src="../images/lit.jpg" />
+		</div>
+    
+     <!-- Javascript Files
+     ================================================== -->
+	 
+    <!-- Bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- for portfolio filter gallery -->
+    <script src="../js/modernizr.custom.js"></script>
+    <!-- Custom js-->
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
