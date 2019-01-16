@@ -1,0 +1,303 @@
+/*	!Bectagon style2.css	*/
+@font-face {
+    font-family: logo;
+    src: url(logo.TTF);
+}
+@font-face {
+    font-family: header;
+    src: url(header.ttf);
+}
+ul{
+	margin-right: 10px;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+/*	Navbar	*/
+
+.navbar-right {
+	margin-right: 15px;
+}
+
+.navbar-inverse{
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+.navbar-brand {                                                                                                                                                                                                                                                                                                                                                                                                                         	
+	color: #fff !important;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: logo;
+	padding-left: 50px;
+}
+.navbar-brand:hover {                                                                                                                                                                                                                                                                                                                                                                                                                         	
+	color: #2da2c8 !important;
+	font-size: 35px;
+	font-weight: bolder;
+	font-family: logo;
+	
+
+}
+.navbar-brand:hover  span{
+
+	color: white;
+
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+  text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color: transparent;
+  color: #fff;
+}
+.center_img{
+	position: absolute;
+	top: 32%;
+	left:39.9%;
+}
+
+.center_img img{
+	width: 200px;
+	height: 200px;
+}
+.banner{
+	font-family: header;
+	margin-top: 75px;
+	text-align: center;
+	color:rgba(1, 76, 86, 0.85);
+	font-size: 20px;
+	background-color: #F2F2F2;
+	padding: 10px;
+	border: 1px solid #E4D9D9;
+}
+.banner a{
+	
+	color:rgba(1, 76, 86, 0.85);
+	cursor: pointer;
+}
+.banner a:hover{
+	text-decoration: none;
+	color:rgba(1, 76, 86, 0.85);
+}
+.ppt_img{
+	text-align:center;
+	width:204px;
+	height:134px;
+}
+.ppt_img img{
+
+	width: 90px;
+	height: 90px;
+
+}
+.ppt_img button{
+	padding-left: 30px;
+	border-radius: 50px;
+	padding-right: 30px;
+	font-family: sans-serif,verdana;
+	font-size: 17px;
+	outline:none;
+	border:none;
+	background-color: rgb(53, 131, 219);
+	color: white;
+}
+.ppt_img button:hover{
+	text-decoration: none;
+}
+.ppt_img img:hover button{
+	cursor: pointer;
+	-webkit-transition: all 0.7s ease;
+	-moz-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+	background-color:rgba(9, 42, 79, 0.88);
+}
+.ppt_img  img{
+	margin-bottom:5px;
+}
+.absp_eve_bar{
+	text-align: center;
+	position: absolute;
+	top:70%;
+	
+}
+.absp_eve_bar_top{
+	text-align: center;
+	position: absolute;
+	top:20%;
+	left:10%;
+}
+.modal{
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+.modal-content{
+
+	height:90%;
+
+}
+.modal-dialog{
+	width:80%;
+}
+.modal-body{
+
+	height:	500px;
+	overflow-y:auto;
+
+}
+pre{
+	text-align:left;
+	font-family:sans-serif,verdana;
+}
+.cse{
+	margin-left: 25%;
+}
+
+.civil{
+
+	margin-left:	10%;
+
+}
+.chemical{
+	margin-left: 20%;
+}
+.ece{
+	margin-left: 20%;
+}
+.eee{
+	margin-left:18%;
+}
+.eie{
+	margin-left:12%;
+}
+.it{
+
+	margin-left: 20%;
+
+}
+.mec{
+	margin-left: 10%;
+}
+.culturals{
+	margin-left: 10%;
+}
+pre code{
+
+	font-size: 15px;
+background-color: #DD7676;
+border-radius: 4px;
+padding: 5px;
+color: white;
+
+}
+.sports{
+	margin-left:10%;
+}
+.contact_us_culturals p{
+	margin-top:10px;
+	float: right;
+	background-color: #c0c0c0;
+	padding: 5px;
+	border-radius:6px;
+	margin-right:10px;
+	
+}
+.lit{
+
+	margin-left: 5%;
+
+}
+.contact_us_lfr {
+	margin-top:70px;
+	float: right;
+	background-color: #830D0D;
+	color:white;
+	padding: 5px;
+	border-radius:10px;
+	margin-right:10px;
+}
+.mca{
+
+	margin-left:30%;
+
+}
+.sports_date{
+
+	font-family: sans-serif,verdana;
+position: absolute;
+top: 45%;
+left: 55%;
+font-weight: bold;
+color: #0E867D;
+font-size: 25px;
+font-style: oblique;
+
+}
+.ld_sports{
+
+	font-family: sans-serif,verdana;
+	font-weight:bold;
+	position: absolute;
+	top: 20%;
+	left: 2%;
+	color: #0E867D;
+	font-size: 15px;
+}
+.work_shops{
+
+	margin-top:70px;
+	background-color: #830D0D;
+	color:white;
+	padding: 5px;
+	border-radius:10px;
+	margin-right:10px;
+	margin-left:10px;
+
+}
+.pnl{
+
+	margin-top:5%;
+	width:600px;
+	margin-left:27%;
+}
+
+.win_img{
+	position: absolute;
+	top:25%;
+	left:60%;
+}
+.win_img img{
+	height:400px;
+	width:400px;
+	border-radius: 5px;
+}
+.robo_img{
+	position: absolute;
+	top:18%;
+	left:80%;
+}
+.robo_img img{
+	height:200px;
+	width:200px;
+	border-radius: 5px;
+}
+.fee_sports{
+	font-family: sans-serif,verdana;
+	font-weight:bold;
+	position: absolute;
+	top: 40%;
+	left: 12%;
+	color: #0E867D;
+	font-size: 20px;
+}

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="../css/style2k19.css">
+	
+    <title>Culturals</title>
+
+    <link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/common.css" />
+	<link rel="stylesheet" type="text/css" href="../css/styleevents.css" />
+	<link rel="stylesheet" type="text/css" href="../css/logo1.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
+	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		
+	<script type="text/javascript" src="../js/wow.min.js">
+	
+		new WOW().init();
+	</script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--Javscript jquery for hiding and viewing-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+   $("#singing").hide();
+    $("#dance").hide();
+    $("#drama").hide();
+
+  $("#sin").click(function(){
+    $("#singing").show();
+    $("#dance").hide();
+    $("#drama").hide();;
+  });
+  $("#dan").click(function(){
+    $("#singing").hide();
+    $("#dance").show();
+    $("#drama").hide();
+  });
+  $("#dra").click(function(){
+    $("#singing").hide();
+    $("#dance").hide();
+    $("#drama").show();
+  });
+});
+</script>
+    <style type="text/css">
+      
+    
+    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+
+.cards {
+    width: 100%;
+   
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+
+
+
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.card {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 300px;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  padding-left:0px;
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   /*padding: 16px 24px 24px 24px;*/
+}
+
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+	text-align:center;
+}
+
+
+.card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.card:hover .card__info-hover {
+    opacity: 1;
+}
+
+
+  </style>
+  </head>
+  <body> 
+     
+    <header>
+	<nav class="navbar navbar-expand-md /*py-1 to decrese the nav by 1*/ navbar-dark bg-dark fixed-top">
+	  <!-- LOGO -->
+
+		<div style="height:30px;width:200px;/*border:1px solid blue*/">
+			<svg viewBox="0 0 1990 300">
+
+				<!-- Symbol -->
+				  <symbol id="s-text">
+					<text text-anchor="middle"
+						  x="50%" y="50%" dy=".15em">
+					  BECTAGON 2k19
+					</text>
+				  </symbol>  
+
+				  <!-- Duplicate symbols -->
+				  <use xlink:href="#s-text" class="text"
+					   ></use>
+				  <use xlink:href="#s-text" class="text"
+					   ></use>
+				  <use xlink:href="#s-text" class="text"
+					   ></use>
+				  <use xlink:href="#s-text" class="text"
+					   ></use>
+				  <use xlink:href="#s-text" class="text"
+					   ></use>
+
+			</svg>
+        </div>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item">
+			<a class="nav-link" href="index.html">Home </a>
+		  </li>
+		  <li class="nav-item  active">
+			<a class="nav-link" href="#" id="navbarDropdownMenuLink">
+			  Departments
+			</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
+			  Spot Events
+			</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
+			  Workshops
+			</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
+			  Sports
+			</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="gallery.html">Culturals</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="gallery.html">Literary</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="contact_us.html">Contact Us</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+
+
+   <div style="padding-top:50px">
+	
+	</div>
+
+	<!-- header -->
+		<div class="row banner" style="margin-bottom:5px">
+			
+			 <div class="col-lg-12 col-md-12 col-sm-12">
+				
+				<a href="http://www.becbapatla.ac.in/" title="CE Home"><h3>Culturals</h3></a>
+				
+			 </div>
+			
+		</div>
+	</header>
+		<!--body-->
+  <!--contacts  <div class="contact_us_culturals">
+    
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+        
+          <p>Contact:<br/>M.Murali Manohar    -8885616653<br/>K.Bharat Sai Kumar  -8125566563</p>
+        
+        </div>
+      
+      </div>
+    
+    </div>-->
+	
+		<!--<div class="container-fluid" style="text-align:center;margin-top:2%">
+      
+		<div class="container" style="/*border:1px solid blue;*/">
+			<div class="cards row" style="margin-left:auto; margin-right:auto;">
+				
+				  <div class="card1 card--1 col-sm-12 col-md-12 a1" id="sin">
+					  <div class="card__info-hover">    
+						  </div>
+						  <div class="card__img"></div>
+						  <a href="#" class="card_link">
+							 <div class="card__img--hover"></div>
+						  </a>
+						  <div class="card__info" style="text-align:center;">
+							<h3 class="card__title">Singing</h3>
+						  </div>
+				</div>
+			  
+			  
+				<div class="card1 card--2 col-sm-12 col-md-12 a1" id="dan">
+						<div class="card__info-hover">    
+						</div>
+						<div class="card__img"></div>
+					<a href="#" class="card_link">
+						<div class="card__img--hover"></div>
+					</a>
+					<div class="card__info">
+						<h3 class="card__title">Dance</h3>
+					</div>
+					</div>  
+				<div class="card1 card--1 col-sm-12 col-md-12 a1" id="dra">
+						<div class="card__info-hover">    
+						</div>
+					<div class="card__img"></div>
+						<a href="#" class="card_link">
+						<div class="card__img--hover"></div>
+						</a>
+						<div class="card__info">
+						<h3 class="card__title">Drama</h3>
+					</div>
+				</div>  
+			</div>
+			</div>
+      
+      <div class=container-fluid" >-->
+      <!--Singing
+      <div class="row" id="singing" style="padding-top:5%">
+        
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
+          <div class="card" style="/*border:1px solid black*/">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Classical Vocal(solo)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Westren VOcal(solo)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Light Vocal(solo-indian)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Group Singing(Indian)</p></a>
+              </div>
+          </div>
+        </div>
+       </div>
+		-->
+    <!---dance
+    <div class="row" id="dance" style="padding-top:5%">
+       
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
+          <div class="card" style="/*border:1px solid black*/">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Classical(solo)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Western(Solo)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Western(Group)</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Folk/Tribal(Group)</p></a>
+              </div>
+          </div>
+        </div>
+      </div>-->
+      <!--Drama
+      <div class="row" id="drama" style="padding-top:5%">
+       
+        <div class="col-sm-1 col-md-1 col-lg-1" style="/*height:100px*/"></div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
+          <div class="card" style="/*border:1px solid black*/">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Skit</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mime</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mono Action</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mimkry</p></a>
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-2" style="">
+          <div class="card" style="">
+              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
+              <div class="card-body">
+                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">One Act Play</p></a>
+              </div>
+          </div>
+        </div>
+        
+      </div>
+
+
+  </div>-->
+  
+	<!------applying bootstrap 4-->
+	<div class="container-fluid">
+		<div class="container no-gutters" style="margin:0 auto 0 auto">
+			<section class="cards row" style="margin:0 auto 0 auto">
+				<article class="col-sm-8 col-md-3 card card--1 " style="margin:0 auto 0 auto" id="sin">
+					<div class="card__img"></div>
+						<a href="#" class="card_link">
+							<div class="card__img--hover"></div>
+						</a>
+				  <div class="card__info">
+					<h3 class="card__title">Singing</h3>
+				  </div>
+			</article>
+			  
+			  
+			<article class="col-sm-8 col-md-3 card card--1 " style="margin:0 auto 0 auto" id="dan"> 
+					<div class="card__img"></div>
+						<a href="#" class="card_link">
+							<div class="card__img--hover"></div>
+						</a>
+				  <div class="card__info">
+					<h3 class="card__title">Dance</h3>
+				  </div>
+			</article>
+			<article class="col-sm-8 col-md-3 card card--1 " style="margin:0 auto 0 auto" id="dra">
+					<div class="card__img"></div>
+						<a href="#" class="card_link">
+							<div class="card__img--hover"></div>
+						</a>
+				  <div class="card__info">
+					<h3 class="card__title">Drama</h3>
+				  </div>
+			</article>
+			  
+			  
+			  
+			  </section>
+		</div>
+	<div class="container-fluid">
+		
+			<section class="main">
+				<!--singing-->
+				<ul class="ch-grid" id="singing">
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+							<div class="ch-info">
+								<h3>Classical Vocal(Solo)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Classical Vocal(Solo)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
+							<div class="ch-info">
+								<h3>Western Vocal(Solo)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Western Vocal(Solo)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
+							<div class="ch-info">
+								<h3>Light Vocal(Solo-Indian)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Light Vocal(Solo-Indian)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
+							<div class="ch-info">
+								<h3>Group Singing(Indian)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Group Singing(Indian)</h5>
+					</li>
+					
+
+				</ul>
+				
+				<!--dancing-->
+				<ul class="ch-grid" id="dance">
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+							<div class="ch-info">
+								<h3>Classical(Solo)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Classical(Solo)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
+							<div class="ch-info">
+								<h3>Western(Solo)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Western(Solo)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
+							<div class="ch-info">
+								<h3>Western(Group)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Western(Group)</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
+							<div class="ch-info">
+								<h3>Folk/Tribal(Group)</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Folk/Tribal(Group)</h5>
+					</li>
+				</ul>
+				<!--drama-->
+				<ul class="ch-grid" id="drama">
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+							<div class="ch-info">
+								<h3>Skit</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Skit</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
+							<div class="ch-info">
+								<h3>Mime</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Mime</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
+							<div class="ch-info">
+								<h3>Mono Action</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>Mono Action</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
+							<div class="ch-info">
+								<h3>Mimkry</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Mimkry</h5>
+					</li>
+					<li>
+						<div class="ch-item ch-img-2" style="background-image: url(../images/5.jpg);">
+							<div class="ch-info">
+								<h3>One Act Play</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+						<h5>One Act Play</h5>
+					</li>
+				</ul>
+				
+				
+			</section>
+		</div>
+        </div>
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+ <!--Paper Presentation Model-->
+<div class="modal fade ppt quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Paper Presentation</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<ol>
+	<li class="mbsh">Environmental & Sustainable Technology Development
+		<ul  class="mb">
+			<li>Energy Engineering</li>
+			<li>Environmental Engineering</li>
+			<li>New Process Technologies</li>
+			<li>Process Intensification</li>
+			<li>Green Chemistry</li>
+			<li>Green Engineering & Technology</li>
+			<li>Industrial Safety & Hazards etc.</li>
+		</ul>
+	</li>
+	<li class="mbsh">Environmental & Sustainable Technology Development
+		<ul  class="mb">
+			<li>Nano-Technology</li>
+			<li>Bio Process Technology</li>
+			<li>Membrane Science Technology</li>
+			<li>Polymer Science & Engineering</li>
+			<li>Pharmaceutical Technology</li>
+			<li>Novel Reactors and Catalysis</li>
+			<li>Smart Materials</li>
+			<li>Bio Polymers</li>
+			<li>Bio Chemical Engineering</li>
+			<li>Food Technology</li>
+			<li>Adsorption Technology</li>
+			<li>Bio Engineering etc.</li>
+		</ul>
+	</li>
+	<li class="mbsh">ETP Alternatives</li>
+</ol>
+
+<p class="mbsh">RULES</p>
+<ul  class="mb">
+	<li>Each participating team may comprise of maximum 2 members (Min 1).</li>
+	<li>Kindly send in an abstract of your Design at </li>
+	<li>The abstract should be in .doc or .pdf format  or .ppt format only. </li>
+	<li>The font of the abstract should be “Times New Roman” font of 12 font size only and for specific keywords use font size 14 (Bold). Line spacing should be 1.5.</li>
+	<li>Participants whose abstracts are selected will be notified by email.</li>
+	<li>Kindly mention Intellectual Property Rights issues (if any) related to your project.</li>
+	<li>The decision of the judges and the event head will be treated as final and binding on all.</li>
+	<li>The organizers reserve the right to change the rules and specifications without prior notice.</li>
+	<li>All ‘undergraduate’ students with valid ID cards of their respective educational institutes are allowed to participate.</li>
+</ul>
+
+<p class="mbsh">FORMAT OF ABSTRACT</p><pre class="mb">Main Title
+Authors 1* Author 2#
+*email; Cell no
+#email; Cell no
+College Name; Branch
+Abstract (max.300 words)
+Key Words:
+References:
+</pre>
+
+<p class="mbsh">Presentation rules</p>
+<ul  class="mb">
+	<li>Presentation time is 10 min(participants are requested to submit their ppt files to the event heads at the time of the events).</li>
+	<li>Warning bell will be given at 8 min</li>
+	<li>5 min Q&A session.</li>
+	<li>Printed paper for judges should be in IEEE/IICHE format.</li>
+</ul>
+
+<p class="mbsh">Judging Criteria:</p>
+<ul  class="mb">
+	<li>Presentation</li>
+	<li>Concept reach to masses</li>
+</ul>
+
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-sm-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div>
+    <div class="col-sm-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div>
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+
+	<!--	<div class="center_img lit">
+			<img src="../images/lit.jpg" />
+		</div>
+    
+     <!-- Javascript Files
+     ================================================== -->
+	 
+    <!-- Bootstrap js -->
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- for portfolio filter gallery -->
+    <script src="../js/modernizr.custom.js"></script>
+    <!-- Custom js-->
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
