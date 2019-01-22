@@ -1,0 +1,36 @@
+.mt{
+	font-family:Times New Roman;
+	font-size: 30px;
+}
+
+.mbsh{
+	color:blue;
+	font-family:algerian;
+	font-size:18px;
+}
+
+.mb{
+	color:black;
+	font-family:Times New Roman;
+	font-size:18px;
+}
+/*
+.banner{
+	font-family: header;
+	text-align: center;
+	color:rgba(1, 76, 86, 0.85);
+	font-size: 20px;
+	background-color: #F2F2F2;
+	padding: 5px;
+	border: 1px solid #E4D9D9;
+}
+.banner a{
+	
+	color:rgba(1, 76, 86, 0.85);
+	cursor: pointer;
+}
+.banner a:hover{
+	text-decoration: none;
+	color:rgba(1, 76, 86, 0.85);
+}
+*/

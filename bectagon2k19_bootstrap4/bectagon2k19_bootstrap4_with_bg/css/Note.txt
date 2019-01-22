@@ -1,0 +1,3 @@
+The common.css,styleevents.css are for events images and button.
+And style2k19.css is for banner and modal(rules and regulation).
+style2.css is old css(used for old pages)

@@ -1,0 +1,79 @@
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+
+.ch-grid:after {
+	clear: both;
+}
+
+.ch-grid li {
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	margin: 20px;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+body{
+	font-family: Cambria, Georgia, serif;
+	background: #554bb9 url(../images/bannar4.jpg);
+	font-weight: 300;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+ul li a
+{
+	font-size: 18px;
+    line-height: 2.4000000000000004rem;
+    font-weight: 400;
+   /* text-transform: uppercase;*/
+    opacity: .8;
+    letter-spacing: .06rem;
+    padding: 32px 11px;
+	color:#fff;
+	
+}
+.nav-link .navbar-nav .nav-item {
+	color:#fff;
+}
+.navbar{
+	padding:4px 0 0 0;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	opacity:.95;
+	background-color:rgba(27,39,61,.95);
+}
+
+.heading{
+	font-family: Poppins,sans-serif;
+    font-size: 30px;
+    line-height: 6.300000000000001rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #fff;
+	width:100%;
+	text-align: center;
+	
+}
+@media (max-width:767px){
+	a img{max-width:60px}
+	.heading{
+		line-height:3rem;
+	}
+}
