@@ -32,11 +32,3 @@
 	text-decoration: none;
 	color:rgba(1, 76, 86, 0.85);
 }
-.nav-link{
-			text-transform:uppercase;
-		}
-		.nav-item:hover{
-			border-top:2px solid white;
-			border-bottom:3px solid white;
-			background-color:#080C12;
-		}
