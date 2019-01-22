@@ -71,6 +71,9 @@ ul li a
 	text-align: center;
 	
 }
+h5{
+	color:#fff;
+}
 @media (max-width:767px){
 	a img{max-width:60px}
 	.heading{
