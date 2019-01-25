@@ -163,7 +163,7 @@ border-bottom-right-radius: 12px;
   <body> 
      
     <header>
-	<nav class="navbar navbar-expand-md py+10s /*to decrese the nav by 1*/ navbar-dark  fixed-top">
+	<nav class="navbar navbar-expand-md /*py-1 to decrese the nav by 1*/ navbar-dark  fixed-top">
 	  <!-- LOGO -->
 
             <!-- TEXT BASED LOGO -->
@@ -198,51 +198,42 @@ border-bottom-right-radius: 12px;
                                 <img class="img-fluid" src="../images/i3_home.png" alt="Eventhunt Logo"/>
                             </a>
                         </div>
+	  
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
 		  <li class="nav-item">
-			<a class="nav-link" href="index.html">Home </a>
+			<a class="nav-link" href="index.html" style="color: rgba(255,255,255);">Home </a>
 		  </li>
 		  <li class="nav-item  active">
-			<a class="nav-link" href="#" id="navbarDropdownMenuLink">
-			  Departments
+			<a class="nav-link" href="index.html#lgx-speakers" style="color: rgba(255,255,255);">
+			  Events
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Spot Events
+			<a class="nav-link " href="index.html#lgx-schedule" style="color: rgba(255,255,255);">
+			  Schedule
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Workshops
+			<a class="nav-link " href="registration.html" style="color: rgba(255,255,255);">
+			  Registration
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Sports
+			<a class="nav-link " href="index.html#lgx-contact" style="color: rgba(255,255,255);">
+			  Contact
 			</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Culturals</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Literary</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="contact_us.html">Contact Us</a>
 		  </li>
 		</ul>
 	  </div>
 	</nav>
 
-
-   <div style="padding-top:108px">
+    <!--<div style="padding-top:108px;">
 	
-	</div>
+	</div>-->
 
 	<!--
 		<div class="row banner" style="margin-bottom:5px">
@@ -278,7 +269,7 @@ border-bottom-right-radius: 12px;
 			<section class="cards row" style="margin:0 auto 0 auto">
 				<article class="col-sm-8 col-md-3 card card--1 " style="margin:0 auto 0 auto" id="sin">
 					<div class="card__img"></div>
-						<a href="#" class="card_link">
+						<a href="#singing" class="card_link">
 							<div class="card__img--hover"></div>
 						</a>
 				  <div class="card__info">
@@ -289,7 +280,7 @@ border-bottom-right-radius: 12px;
 			  
 			<article class="col-sm-8 col-md-3 card card--2 " style="margin:0 auto 0 auto" id="dan"> 
 					<div class="card__img"></div>
-						<a href="#" class="card_link">
+						<a href="#dance" class="card_link">
 							<div class="card__img--hover"></div>
 						</a>
 				  <div class="card__info">
@@ -298,7 +289,7 @@ border-bottom-right-radius: 12px;
 			</article>
 			<article class="col-sm-8 col-md-3 card card--3 " style="margin:0 auto 0 auto" id="dra">
 					<div class="card__img"></div>
-						<a href="#" class="card_link">
+						<a href="#drama" class="card_link">
 							<div class="card__img--hover"></div>
 						</a>
 				  <div class="card__info">
@@ -316,22 +307,22 @@ border-bottom-right-radius: 12px;
 				<!--singing-->
 				<ul class="ch-grid" id="singing">
 					<li>
-						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+						<div class="ch-item ch-img-1" style="background-image: url(../images/classical_sing.jpg); background-size:contain;">
 							<div class="ch-info">
 								<h3>Classical Vocal(Solo)</h3>
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".cv" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-							<h5>Classical Vocal(Solo)</h5>
+							<h5>Classical Vocal<br/>(Solo)</h5>
 					</li>
 					<li>
-						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
+						<div class="ch-item ch-img-2" style="background-image: url(../images/solo.jpg);background-size:contain;">
 							<div class="ch-info">
 								<h3>Western Vocal(Solo)</h3>
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".wv" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-						<h5>Western Vocal(Solo)</h5>
+						<h5>Western Vocal<br/>(Solo)</h5>
 					</li>
 					<li>
 						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
@@ -340,16 +331,16 @@ border-bottom-right-radius: 12px;
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".lv" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-						<h5>Light Vocal(Solo-Indian)</h5>
+						<h5>Light Vocal<br/>(Solo-Indian)</h5>
 					</li>
 					<li>
 						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
 							<div class="ch-info">
-								<h3>Group Singing(Indian)</h3>
+								<h3>Group Singing<br/>(Indian)</h3>
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".gs" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-							<h5>Group Singing(Indian)</h5>
+							<h5>Group Singing<br/>(Indian)</h5>
 					</li>
 					
 
@@ -358,7 +349,7 @@ border-bottom-right-radius: 12px;
 				<!--dancing-->
 				<ul class="ch-grid" id="dance">
 					<li>
-						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+						<div class="ch-item ch-img-1" style="background-image: url(../images/classical.jpg); background-size:contain;">
 							<div class="ch-info">
 								<h3>Classical(Solo)</h3>
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".cs" style="font-size:12px">More</a></p>
@@ -387,7 +378,7 @@ border-bottom-right-radius: 12px;
 					<li>
 						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
 							<div class="ch-info">
-								<h3>Folk/Tribal(Group)</h3>
+								<h3>Folk/</br>Tribal(Group)</h3>
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ft" style="font-size:12px">More</a></p>
 							</div>
 						</div>
@@ -1232,14 +1223,55 @@ Skill imitating
 			<img src="../images/lit.jpg" />
 		</div>
     
-     <!-- Javascript Files
+      Javascript Files
      ================================================== -->
 	 
-    <!-- Bootstrap js -->
+    <!-- Bootstrap js 
     <script src="../js/bootstrap.min.js"></script>
-    <!-- for portfolio filter gallery -->
+    <!-- for portfolio filter gallery 
     <script src="../js/modernizr.custom.js"></script>
-    <!-- Custom js-->
-    <script src="../js/custom.js"></script>
+    <!-- Custom js
+    <script src="../js/custom.js"></script>-->
+	
+	
+	<!-- Footer -->
+<!-- Footer -->
+<div style="padding-top:108px;">
+	
+	</div>
+<footer class="page-footer font-small indigo" style="background-color:#3f51b5;opacity:.65;">
+
+    <div class="container-fluid" style="font-size:20px;color:white;">
+  <div class="row justify-content-between  text-white">
+    <div class="col-md-6">
+      <pre class="text-white float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr. B.Satheesh
+  <a class="text-white" href="tel:+91-9553043978">9553043978</a>
+ 
+</pre>
+    </div>
+    <div class="col-md-6 text-white">
+      <pre class="float-right text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ P.Ravi Teja
+  <a class="text-white" href="tel:+91-9133175524">9133175524</a>
+  
+ J. Kavya
+  
+</pre>
+    </div>
+  </div>
+</div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color:#324191;color:white;">
+	Copyright © 2019 <a href="http://www.becbapatla.ac.in" style="color:white;" target="_blank">Bapatla Engineering College</a> | All Rights Reserved.
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
   </body>
 </html>

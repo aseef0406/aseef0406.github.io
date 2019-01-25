@@ -26,7 +26,7 @@
   <body>
   
   <header>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#1c273e">
+	<nav class="navbar navbar-expand-md /*py-1 to decrese the nav by 1*/ navbar-dark  fixed-top">
 	  <!-- LOGO -->
 
             <!-- TEXT BASED LOGO -->
@@ -61,51 +61,42 @@
                                 <img class="img-fluid" src="../images/i3_home.png" alt="Eventhunt Logo"/>
                             </a>
                         </div>
+	  
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
 		  <li class="nav-item">
-			<a class="nav-link" href="index.html">Home </a>
+			<a class="nav-link" href="index.html" style="color: rgba(255,255,255);">Home </a>
 		  </li>
 		  <li class="nav-item  active">
-			<a class="nav-link" href="#" id="navbarDropdownMenuLink">
-			  Departments
+			<a class="nav-link" href="index.html#lgx-speakers" style="color: rgba(255,255,255);">
+			  Events
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Spot Events
+			<a class="nav-link " href="index.html#lgx-schedule" style="color: rgba(255,255,255);">
+			  Schedule
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Workshops
+			<a class="nav-link " href="registration.html" style="color: rgba(255,255,255);">
+			  Registration
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Sports
+			<a class="nav-link " href="index.html#lgx-contact" style="color: rgba(255,255,255);">
+			  Contact
 			</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Culturals</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Literary</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="contact_us.html">Contact Us</a>
 		  </li>
 		</ul>
 	  </div>
 	</nav>
 
-
-   <div style="padding-top:108px;">
+    <!--<div style="padding-top:108px;">
 	
-	</div>
+	</div>-->
 
 	<!-- 
 		<div class="row banner">
@@ -131,10 +122,10 @@
 			
 				<ul class="ch-grid">
 					<li>
-						<div class="ch-item ch-img-1" style="background-image: url(../images/kabadDi-court.png);background-size: cover;">
+						<div class="ch-item ch-img-1" style="background-image: url(../images/kabaddi-court.png);background-size: cover;">
 							<div class="ch-info">
 								<h3>Kabbadi(Boys)</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".kabaddi" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 							<h5>Kabbadi(Boys)</h5>
@@ -143,7 +134,7 @@
 						<div class="ch-item ch-img-2" style="background-image: url(../images/kabaddi-court.png);background-size: contain;">
 							<div class="ch-info">
 								<h3>Kabbadi(Girls)</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".kabaddi" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h5>Kabbadi(Girls)</h5>
@@ -152,7 +143,7 @@
 						<div class="ch-item ch-img-3" style="background-image: url(../images/blindcoding.png);background-size: contain;">
 							<div class="ch-info">
 								<h3>Volley Ball(Boys)</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".vb" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h5>Volley Ball(Boys)</h5>
@@ -175,188 +166,133 @@
 <!--
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".ppt">Paper Presentation</button>
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".quiz">Technical Quiz</button>
--->
-<!--Paper Presentation Model-->
-<div class="modal fade ppt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+
+<!--Kabaddi Model-->
+<div class="modal fade kabaddi" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title mt" id="exampleModalLongTitle">Paper Presentation</p>
+        <p class="modal-title mt" id="exampleModalLongTitle">Kabaddi</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-<ol>
-	<li class="mbsh">Environmental & Sustainable Technology Development
-		<ul  class="mb">
-			<li>Energy Engineering</li>
-			<li>Environmental Engineering</li>
-			<li>New Process Technologies</li>
-			<li>Process Intensification</li>
-			<li>Green Chemistry</li>
-			<li>Green Engineering & Technology</li>
-			<li>Industrial Safety & Hazards etc.</li>
-		</ul>
-	</li>
-	<li class="mbsh">Environmental & Sustainable Technology Development
-		<ul  class="mb">
-			<li>Nano-Technology</li>
-			<li>Bio Process Technology</li>
-			<li>Membrane Science Technology</li>
-			<li>Polymer Science & Engineering</li>
-			<li>Pharmaceutical Technology</li>
-			<li>Novel Reactors and Catalysis</li>
-			<li>Smart Materials</li>
-			<li>Bio Polymers</li>
-			<li>Bio Chemical Engineering</li>
-			<li>Food Technology</li>
-			<li>Adsorption Technology</li>
-			<li>Bio Engineering etc.</li>
-		</ul>
-	</li>
-	<li class="mbsh">ETP Alternatives</li>
-</ol>
-
+<p class="mbsh">For MEN and WOMEN</p><br>
 <p class="mbsh">RULES</p>
 <ul  class="mb">
-	<li>Each participating team may comprise of maximum 2 members (Min 1).</li>
-	<li>Kindly send in an abstract of your Design at </li>
-	<li>The abstract should be in .doc or .pdf format  or .ppt format only. </li>
-	<li>The font of the abstract should be “Times New Roman” font of 12 font size only and for specific keywords use font size 14 (Bold). Line spacing should be 1.5.</li>
-	<li>Participants whose abstracts are selected will be notified by email.</li>
-	<li>Kindly mention Intellectual Property Rights issues (if any) related to your project.</li>
-	<li>The decision of the judges and the event head will be treated as final and binding on all.</li>
-	<li>The organizers reserve the right to change the rules and specifications without prior notice.</li>
-	<li>All ‘undergraduate’ students with valid ID cards of their respective educational institutes are allowed to participate.</li>
+<li>IN  CASE  INDESPTEARY ACTION ,STUDENT WILL BE DISQUALIFIED
+</li><li>BONIFIED CERTIFICATE WITH PRINCIPAL SIGNATURE
+</li><li>ALL THE PARTICIPATS SHOULD BRING COLLEGE ID CORDS
+</li><li>ONLY ONE TEAM  FROM A COLLEGE WILL BE ALLOWED TO PARTICIPATE
+</li><li>REGISTRATION TIME SHOULD BE FOLLOWED BY SCHEDULEWISE
+</li><li>EVENT WISE TEST OF PARTICIPANTS FINAL LIST SHOULD BE SUMBMETTED BEFORE 3 DAYS
+</li><li>ALL PARTICIPANTS SHOULD ARRANGE THEIR OWN PERSONAL KITS
+</li><li>DECISION OF JUDJES AND EMPIRES WILL BE FINAL AND BINDINGALL
+</li><li>PARTICIPANT OF ALL THE EVENT SHOULD BE REPOET AT THE ARRANGED VENUE ATLEAST 30 MIN BEFORE TO THE RESPECTED EVENTS
+</li><li>ALL MATCHES WILL BE KNOCKOUT
+</li>
 </ul>
-
-<p class="mbsh">FORMAT OF ABSTRACT</p><pre class="mb">Main Title
-Authors 1* Author 2#
-*email; Cell no
-#email; Cell no
-College Name; Branch
-Abstract (max.300 words)
-Key Words:
-References:
-</pre>
-
-<p class="mbsh">Presentation rules</p>
+<p class="mbsh">ENTRY FEES: PERHEAD : 100</p>
+<p class="mbsh">PRICES</p>
 <ul  class="mb">
-	<li>Presentation time is 10 min(participants are requested to submit their ppt files to the event heads at the time of the events).</li>
-	<li>Warning bell will be given at 8 min</li>
-	<li>5 min Q&A session.</li>
-	<li>Printed paper for judges should be in IEEE/IICHE format.</li>
-</ul>
-
-<p class="mbsh">Judging Criteria:</p>
-<ul  class="mb">
-	<li>Presentation</li>
-	<li>Concept reach to masses</li>
+<li>First Price:<p class="mbsh">3500</p></li>
+<li>Second Price:<p class="mbsh">2500</p></li>
 </ul>
 
       </div>
       <div class="modal-footer">
 <div class="container">
   <div class="row justify-content-between  text-white">
-    <div class="col-sm-6">
-      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
- <b>Faculty Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+    <div class="col-lg-6">
+      <!--pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <!--b>Faculty Coordinator details:</b> 
+ K.ASHOK BABU
+  <a class="text-white" href="mailto:thyashok@gmail.com?subject=Bectagon%20Event">thyashok@gmail.com</a>
   
-</pre>
+</pre-->
     </div>
-    <div class="col-sm-6 text-white">
+    <div class="col-lg-6 text-white">
       <pre class="float-right bg-info text-white">
 	  
  <b>Student Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ Suguan Paul
+  <a class="text-white" href="tel:+91-950-504-3177">9505043177</a>
   
+ Renuka
+  <!--a class="text-white" href="tel:+91-910-034-8364">9100348364</a>
+  <a class="text-white" href="mailto:nagarajuvadlamudi023@gmail.com?subject=Bectagon%20Event">nagarajuvadlamudi023@gmail.com</a> 
+
+ P.Sushma
+  <a class="text-white" href="mailto:pendem.sushma002@gmail.com?subject=Bectagon%20Event">pendem.sushma002@gmail.com</a-->
 </pre>
     </div>
   </div>
 </div>
-		
-    </div>
+
+      </div>
     </div>
   </div>
 </div>
 
-<!--Technical Quiz Model-->
-<div class="modal fade quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+!--VOLLEYBALL Model-->
+<div class="modal fade vb" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title mt" id="exampleModalLongTitle">Technical Quiz</p>
+        <p class="modal-title mt" id="exampleModalLongTitle">Volleyball</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
+<p class="mbsh">For MEN only</p><br>
+<p class="mbsh">RULES</p>
+<ul  class="mb">
+<li>IN  CASE  INDESPTEARY ACTION ,STUDENT WILL BE DISQUALIFIED
+</li><li>BONIFIED CERTIFICATE WITH PRINCIPAL SIGNATURE
+</li><li>ALL THE PARTICIPATS SHOULD BRING COLLEGE ID CORDS
+</li><li>ONLY ONE TEAM  FROM A COLLEGE WILL BE ALLOWED TO PARTICIPATE
+</li><li>REGISTRATION TIME SHOULD BE FOLLOWED BY SCHEDULEWISE
+</li><li>EVENT WISE TEST OF PARTICIPANTS FINAL LIST SHOULD BE SUMBMETTED BEFORE 3 DAYS
+</li><li>ALL PARTICIPANTS SHOULD ARRANGE THEIR OWN PERSONAL KITS
+</li><li>DECISION OF JUDJES AND EMPIRES WILL BE FINAL AND BINDINGALL
+</li><li>PARTICIPANT OF ALL THE EVENT SHOULD BE REPOET AT THE ARRANGED VENUE ATLEAST 30 MIN BEFORE TO THE RESPECTED EVENTS
+</li><li>ALL MATCHES WILL BE KNOCKOUT
+</li>
+</ul>
+<p class="mbsh">ENTRY FEES: PERHEAD : 100</p>
+<p class="mbsh">PRICES</p>
+<ul  class="mb">
+<li>First Price:<p class="mbsh">3500</p></li>
+<li>Second Price:<p class="mbsh">2500</p></li>
+</ul>
 
-<p class="mbsh">Round 1: Qualification Round</p>
-<ul  class="mb">
-	<li>A team of maximum 2 players can register. </li>
-	<li>The quiz comprises of 20 questions (multiple choice and true/false). </li>
-	<li>Time duration for the quiz is 30-45 minutes. </li>
-</ul>
-<p class="mbsh">Round 2: Elimination Round</p>
-<ul  class="mb">
-	<li>The teams that clear Qualification Round, enters the Elimination Round. </li>
-	<li>This will be held on the event day. This round will be in the form of a written exam comprising of short answer type questions. </li>
-	<li>The top 4 teams shall qualify for the Grand Finale. </li>
-	<li>The duration of the quiz will be around 30-45 minutes.</li>
-</ul>
-<p class="mbsh">Round 3: The Grand Finale</p>
-<ul  class="mb">
-	<li>A quiz will be conducted with a quiz master. </li>
-	<li>Quiz will be carried out in multiple rounds. </li>
-</ul>
-<p class="mbsh">Certificate Policy</p>
-<ul  class="mb">
-	<li>Cash prizes and Certificate of Excellence will be awarded to teams in the final as per their positions.</li>
-</ul>
       </div>
       <div class="modal-footer">
 <div class="container">
   <div class="row justify-content-between  text-white">
-    <div class="col-sm-6">
-      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
- <b>Faculty Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+    <div class="col-lg-6">
+      <!--pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <!--b>Faculty Coordinator details:</b> 
+ K.ASHOK BABU
+  <a class="text-white" href="mailto:thyashok@gmail.com?subject=Bectagon%20Event">thyashok@gmail.com</a>
   
-</pre>
+</pre-->
     </div>
-    <div class="col-sm-6 text-white">
+    <div class="col-lg-6 text-white">
       <pre class="float-right bg-info text-white">
 	  
  <b>Student Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ Suguan Paul
+  <a class="text-white" href="tel:+91-950-504-3177">9505043177</a>
   
+ Renuka
+  <!--a class="text-white" href="tel:+91-910-034-8364">9100348364</a>
+  <a class="text-white" href="mailto:nagarajuvadlamudi023@gmail.com?subject=Bectagon%20Event">nagarajuvadlamudi023@gmail.com</a> 
+
+ P.Sushma
+  <a class="text-white" href="mailto:pendem.sushma002@gmail.com?subject=Bectagon%20Event">pendem.sushma002@gmail.com</a-->
 </pre>
     </div>
   </div>
@@ -364,8 +300,46 @@ References:
 
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div style="padding-top:108px;">
+	
+	</div>
+<footer class="page-footer font-small indigo" style="background-color:#3f51b5;opacity:.65;">
+
+    <div class="container-fluid" style="font-size:20px;color:white;">
+  <div class="row justify-content-between  text-white">
+    <div class="col-md-6">
+      <pre class="text-white float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Sk.Meeravali
+  <a class="text-white" href="tel:+91-9701847454">9701847454</a>
+ 
+</pre>
+    </div>
+    <div class="col-md-6 text-white">
+      <pre class="float-right text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ Suguan Paul
+  <a class="text-white" href="tel:+91-950-504-3177">9505043177</a>
+  
+ Renuka
+  
+</pre>
     </div>
   </div>
+</div>
 
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color:#324191;color:white;">
+	Copyright © 2019 <a href="http://www.becbapatla.ac.in" style="color:white;" target="_blank">Bapatla Engineering College</a> | All Rights Reserved.
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
   </body>
 </html>

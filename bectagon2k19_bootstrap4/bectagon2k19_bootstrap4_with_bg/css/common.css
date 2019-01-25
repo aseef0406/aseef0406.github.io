@@ -31,6 +31,7 @@
 body{
 	font-family: Cambria, Georgia, serif;
 	background: #554bb9 url(../images/bannar4.jpg);
+	background-size:cover;
 	font-weight: 300;
 	font-size: 15px;
 	color: #333;
@@ -58,6 +59,7 @@ ul li a
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	opacity:.95;
 	background-color:rgba(27,39,61,.95);
+
 }
 
 .heading{
@@ -74,8 +76,19 @@ ul li a
 h5{
 	color:#fff;
 }
+.navbar{
+    position: relative;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+}
 @media (max-width:767px){
-	a img{max-width:60px}
+	a img{
+		max-width:60px
+		}
 	.heading{
 		line-height:3rem;
 	}

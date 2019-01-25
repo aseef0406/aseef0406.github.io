@@ -26,7 +26,7 @@
   <body>
   
   <header>
-	<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+	<nav class="navbar navbar-expand-md /*py-1 to decrese the nav by 1*/ navbar-dark  fixed-top">
 	  <!-- LOGO -->
 
             <!-- TEXT BASED LOGO -->
@@ -61,52 +61,41 @@
                                 <img class="img-fluid" src="../images/i3_home.png" alt="Eventhunt Logo"/>
                             </a>
                         </div>
+	  
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
 		  <li class="nav-item">
-			<a class="nav-link" href="index.html">Home </a>
+			<a class="nav-link" href="index.html" style="color: rgba(255,255,255);">Home </a>
 		  </li>
 		  <li class="nav-item  active">
-			<a class="nav-link" href="#" id="navbarDropdownMenuLink">
-			  Departments
+			<a class="nav-link" href="index.html#lgx-speakers" style="color: rgba(255,255,255);">
+			  Events
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Spot Events
+			<a class="nav-link " href="index.html#lgx-schedule" style="color: rgba(255,255,255);">
+			  Schedule
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Workshops
+			<a class="nav-link " href="registration.html" style="color: rgba(255,255,255);">
+			  Registration
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Sports
+			<a class="nav-link " href="index.html#lgx-contact" style="color: rgba(255,255,255);">
+			  Contact
 			</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Culturals</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Literary</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="contact_us.html">Contact Us</a>
 		  </li>
 		</ul>
 	  </div>
 	</nav>
-
-
-   <div style="padding-top:108px;">
+ <!--<div style="padding-top:108px;">
 	
-	</div>
-
+	</div>-->
 	<!-- 
 		<div class="row banner">
 			
@@ -123,7 +112,7 @@
 	</header>
 	<div class="container-fluid">
 		<div class="row no-gutters" >
-				<img src="../images/csevec.PNG" class="img-fluid" style="width:200px;height:200px;margin:0 auto 0 auto"/>
+				<img src="../images/it.jpg" class="img-fluid" style="width:200px;height:200px;margin:0 auto 0 auto;opacity:.7;border-radius:20px 20px"/>
 		</div>
 	<div class="container-fluid">
 		
@@ -137,7 +126,7 @@
 								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-							<h5>Technical&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Quiz</h5>
+							<h5>TechnicalQuiz</h5>
 					</li>
 					<li>
 						<div class="ch-item ch-img-2" style="background-image: url(../images/ppt.png);background-size: contain;">
@@ -168,7 +157,17 @@
 					</li>
 					
 				</ul>
-				
+				<ul class="ch-grid" id="infor">
+					<li>
+						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
+							<div class="ch-info">
+								<h3>Software Contest</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".sc" style="font-size:12px">More</a></p>
+							</div>
+						</div>
+							<h5>Software Contest<br/>(Spot Event)</h5>
+					</li>
+				</ul>
 			</section>
 		</div>
         </div>
@@ -434,6 +433,95 @@ prove yourself, This is the place. PARTCIPATE , show your skills and WIN.
     </div>
     </div>
   </div>
+<!--SOFTWARE CONTEST Model-->
+<div class="modal fade sc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Software Contest</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<p class="mbsh">ABOUT THE EVENT:</p>
+<p class="mb">A Set of programs will be given and participants have to solve and execute maximum number of programs in a given time. Show your programming skills and WIN the contest.</p>
+<p class="mbsh">GUIDELINES:</p>
+<ul class="mb">
+<li>Contest duration will be of 60 minutes.</li>
+<li>Participants are not allowed take cellphones or laptops during   contest.</li>
+<li>Prizes will be given based on the maximum number of programs you had executed in a given time.</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ K.Suresh Kumar
+  
+</pre>
+    </div>
+    <div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ B.Deepika
+  <a class="text-white" href="tel:+91-836-773-5177">8367735177</a>
+ 
+ K.Sravanthi
+ 
+</pre>
+    </div>
+  </div>
+</div>
 
+      </div>
+    </div>
+    </div>
+  </div>
+  
+  
+<!-- Footer -->
+<div style="padding-top:108px;">
+	
+	</div>
+<footer class="page-footer font-small indigo" style="background-color:#3f51b5;opacity:.65;">
+
+    <div class="container-fluid" style="font-size:20px;color:white;">
+  <div class="row justify-content-between  text-white">
+    <div class="col-md-6">
+      <pre class="text-white float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr. Shaik Mabasha
+  <a class="text-white" href="tel:+91-9160779079">9160779079</a>
+ 
+</pre>
+    </div>
+    <div class="col-md-6 text-white">
+      <pre class="float-right text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ R.V.S.R.S. Dheeraj
+  <a class="text-white" href="tel:+91-9908448012">9908448012</a>
+  <a class="text-white" href="mailto:rallabandidheeraj@gmail.com?subject=Bectagon%20Event">rallabandidheeraj@gmail.com</a>
+  
+  Sk .Salma Sulthana
+  <a class="text-white" href="mailto:salmasulthana428@gmail.com?subject=Bectagon%20Event">salmasulthana428@gmail.com</a>
+  
+</pre>
+    </div>
+  </div>
+</div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color:#324191;color:white;">
+	Copyright © 2019 <a href="http://www.becbapatla.ac.in" style="color:white;" target="_blank">Bapatla Engineering College</a> | All Rights Reserved.
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
   </body>
 </html>

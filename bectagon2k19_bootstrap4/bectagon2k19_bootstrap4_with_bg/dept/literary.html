@@ -1,23 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-
-    <!-- Basic Page Needs
-    ================================================== -->
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	
-	<!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link rel="stylesheet" href="../css/style2k19.css">
-	
-    <title>Literary and Arts</title>
-
-    <link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
+	<!-- Main structure css file -->
+    <!--<link href="../css/style2.css" rel="stylesheet">-->
+    <title>Literary</title>
+	<link id="orginal" href="../css/themes/default-theme.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="../css/common.css" />
 	<link rel="stylesheet" type="text/css" href="../css/styleevents.css" />
-	<link rel="stylesheet" type="text/css" href="../css/logo1.css" />
+		<link rel="stylesheet" type="text/css" href="../css/logo1.css" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css' />
 	<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
 		
@@ -25,132 +22,10 @@
 	
 		new WOW().init();
 	</script>
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <!--Javscript jquery for hiding and viewing-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-   $("#literary").hide();
-    $("#arts").hide()
-  $("#lit").click(function(){
-    $("#literary").show();
-    $("#arts").hide();
-  });
-  $("#artscont").click(function(){
-    $("#arts").show();
-    $("#literary").hide();
-  });
-});
-</script>
-    <style type="text/css">
-      
-    
-    @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-
-
-.cards {
-    width: 100%;
-   
-    justify-content: center;
-    -webkit-justify-content: center;
-}
-
-.card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('../images/literary.jpg');
-}
-
-.card--2 .card__img, .card--2 .card__img--hover {
-    background-image: url('../images/arts.jpg');
-}
-
-
-
-
-
-.card__img {
-  visibility: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-  
-}
-
-.card__img--hover {
-  transition: 0.2s all ease-out;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-  position: absolute;
-    height: 235px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-top: 0;
-  
-}
-.card {
-  margin-right: 25px;
-  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #fff;
-    width: 300px;
-  position: relative;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
-  padding-left:0px;
-}
-.card:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    transform: scale(1.10, 1.10);
-}
-
-.card__info {
-z-index: 2;
-  background-color: #fff;
-  border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
-   /*padding: 16px 24px 24px 24px;*/
-}
-
-
-.card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
-	text-align:center;
-}
-
-
-.card:hover .card__img--hover {
-    height: 100%;
-    opacity: 0.3;
-}
-
-.card:hover .card__info {
-    background-color: transparent;
-    position: relative;
-}
-
-.card:hover .card__info-hover {
-    opacity: 1;
-}
-
-
-  </style>
   </head>
-  <body> 
-     
-    <header>
+  <body>
+  
+  <header>
 	<nav class="navbar navbar-expand-md /*py-1 to decrese the nav by 1*/ navbar-dark  fixed-top">
 	  <!-- LOGO -->
 
@@ -186,279 +61,65 @@ border-bottom-right-radius: 12px;
                                 <img class="img-fluid" src="../images/i3_home.png" alt="Eventhunt Logo"/>
                             </a>
                         </div>
+	  
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNavDropdown">
 		<ul class="navbar-nav ml-auto">
 		  <li class="nav-item">
-			<a class="nav-link" href="index.html">Home </a>
+			<a class="nav-link" href="index.html" style="color: rgba(255,255,255);">Home </a>
 		  </li>
 		  <li class="nav-item  active">
-			<a class="nav-link" href="#" id="navbarDropdownMenuLink">
-			  Departments
+			<a class="nav-link" href="index.html#lgx-speakers" style="color: rgba(255,255,255);">
+			  Events
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Spot Events
+			<a class="nav-link " href="index.html#lgx-schedule" style="color: rgba(255,255,255);">
+			  Schedule
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Workshops
+			<a class="nav-link " href="registration.html" style="color: rgba(255,255,255);">
+			  Registration
 			</a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link " href="#" id="navbarDropdownMenuLink">
-			  Sports
+			<a class="nav-link " href="index.html#lgx-contact" style="color: rgba(255,255,255);">
+			  Contact
 			</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Culturals</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="gallery.html">Literary</a>
-		  </li>
-		  <li class="nav-item">
-			<a class="nav-link" href="contact_us.html">Contact Us</a>
 		  </li>
 		</ul>
 	  </div>
 	</nav>
 
-
-   <div style="padding-top:108px">
+ <!--<div style="padding-top:108px;">
 	
-	</div>
+	</div>-->
 
-	<!-- 
-		<div class="row banner" style="margin-bottom:5px">
+	<!-- header 
+		<div class="row banner">
 			
 			 <div class="col-lg-12 col-md-12 col-sm-12">
 				
-				<a href="http://www.becbapatla.ac.in/" title="CE Home"><h3>Literary and Arts</h3></a>
+				<a href="http://www.becbapatla.ac.in/" title="CE Home"><h3>Department Of Computer Science and Engineering</h3></a>
 				
 			 </div>
 			
 		</div>-->
 		<div class="heading " >
-		<p style="margin:auto">Literary and Arts</p>
+		<p style="margin:auto">Literary Events</p>
 		</div>
 	</header>
-		<!--body-->
-  <!--contacts  <div class="contact_us_culturals">
-    
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-        
-          <p>Contact:<br/>M.Murali Manohar    -8885616653<br/>K.Bharat Sai Kumar  -8125566563</p>
-        
-        </div>
-      
-      </div>
-    
-    </div>-->
-	
-		<!--<div class="container-fluid" style="text-align:center;margin-top:2%">
-      
-		<div class="container" style="/*border:1px solid blue;*/">
-			<div class="cards row" style="margin-left:auto; margin-right:auto;">
-				
-				  <div class="card1 card--1 col-sm-12 col-md-12 a1" id="sin">
-					  <div class="card__info-hover">    
-						  </div>
-						  <div class="card__img"></div>
-						  <a href="#" class="card_link">
-							 <div class="card__img--hover"></div>
-						  </a>
-						  <div class="card__info" style="text-align:center;">
-							<h3 class="card__title">Singing</h3>
-						  </div>
-				</div>
-			  
-			  
-				<div class="card1 card--2 col-sm-12 col-md-12 a1" id="dan">
-						<div class="card__info-hover">    
-						</div>
-						<div class="card__img"></div>
-					<a href="#" class="card_link">
-						<div class="card__img--hover"></div>
-					</a>
-					<div class="card__info">
-						<h3 class="card__title">Dance</h3>
-					</div>
-					</div>  
-				<div class="card1 card--1 col-sm-12 col-md-12 a1" id="dra">
-						<div class="card__info-hover">    
-						</div>
-					<div class="card__img"></div>
-						<a href="#" class="card_link">
-						<div class="card__img--hover"></div>
-						</a>
-						<div class="card__info">
-						<h3 class="card__title">Drama</h3>
-					</div>
-				</div>  
-			</div>
-			</div>
-      
-      <div class=container-fluid" >-->
-      <!--Singing
-      <div class="row" id="singing" style="padding-top:5%">
-        
-        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/"></div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
-          <div class="card" style="/*border:1px solid black*/">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Classical Vocal(solo)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Westren VOcal(solo)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Light Vocal(solo-indian)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Group Singing(Indian)</p></a>
-              </div>
-          </div>
-        </div>
-       </div>
-		-->
-    <!---dance
-    <div class="row" id="dance" style="padding-top:5%">
-       
-        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/"></div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
-          <div class="card" style="/*border:1px solid black*/">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Classical(solo)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Western(Solo)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Western(Group)</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Folk/Tribal(Group)</p></a>
-              </div>
-          </div>
-        </div>
-      </div>-->
-      <!--Drama
-      <div class="row" id="drama" style="padding-top:5%">
-       
-        <div class="col-sm-1 col-md-1 col-lg-1" style="/*height:100px*/"></div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="/*height:100px*/">
-          <div class="card" style="/*border:1px solid black*/">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Skit</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mime</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mono Action</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">Mimkry</p></a>
-              </div>
-          </div>
-        </div>
-        <div class="col-sm-2 col-md-2 col-lg-2" style="">
-          <div class="card" style="">
-              <img class="card-img-top img1" src="../images/cas.jpg" alt="Card image cap" style="height:100px;">
-              <div class="card-body">
-                <a href="http://www.google.com"><p class="card-text" style="font-size:20px">One Act Play</p></a>
-              </div>
-          </div>
-        </div>
-        
-      </div>
-
-
-  </div>-->
-  
-	<!------applying bootstrap 4-->
 	<div class="container-fluid">
-		<div class="container no-gutters" style="margin:0 auto 0 auto">
-			<section class="cards row" style="margin:0 auto 0 auto">
-				<article class="col-sm-8 col-md-3 card card--1 " style="margin:0 auto 0 auto" id="lit">
-					<div class="card__img"></div>
-						<a href="#literary" class="card_link">
-							<div class="card__img--hover"></div>
-						</a>
-				  <div class="card__info">
-					<h3 class="card__title">Literary</h3>
-				  </div>
-			</article>
-			  
-			  
-			<article class="col-sm-8 col-md-3 card card--2 " style="margin:0 auto 0 auto" id="artscont"> 
-					<div class="card__img"></div>
-						<a href="#arts" class="card_link">
-							<div class="card__img--hover"></div>
-						</a>
-				  <div class="card__info">
-					<h3 class="card__title">Arts</h3>
-				  </div>
-			</article>  
-		</section>
+		<div class="row no-gutters" >
+				<img src="../images/literary.jpg" class="img-fluid" style="width:200px;height:200px;margin:0 auto 0 auto;border-radius:20px 20px"/>
 		</div>
 	<div class="container-fluid">
 		
 			<section class="main">
-				<!--Literary-->
+			
 				<ul class="ch-grid" id="literary">
 					<li>
 						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
@@ -470,19 +131,10 @@ border-bottom-right-radius: 12px;
 							<h5>General Quiz</h5>
 					</li>
 					<li>
-						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
-							<div class="ch-info">
-								<h3>LIT Hunt</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
-							</div>
-						</div>
-						<h5>LIT Hunt</h5>
-					</li>
-					<li>
 						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
 							<div class="ch-info">
 								<h3>Floor Crossing</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".fc" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h5>Floor Crossing</h5>
@@ -491,7 +143,7 @@ border-bottom-right-radius: 12px;
 						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
 							<div class="ch-info">
 								<h3>Stand Up Comedy</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".suc" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 							<h5>Stand Up Comedy</h5>
@@ -500,7 +152,7 @@ border-bottom-right-radius: 12px;
 						<div class="ch-item ch-img-2" style="background-image: url(../images/5.jpg);">
 							<div class="ch-info">
 								<h3>Dear Diary</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ddiary" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h5>Dear Diary</h5>
@@ -509,184 +161,101 @@ border-bottom-right-radius: 12px;
 						<div class="ch-item ch-img-3" style="background-image: url(../images/6.jpg);">
 							<div class="ch-info">
 								<h3>Ad-Zap</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".az" style="font-size:12px">More</a></p>
 							</div>
 						</div>
 						<h5>Ad-Zap</h5>
 					</li>
 
 				</ul>
-				
-				<!--Arts-->
-				<ul class="ch-grid" id="arts">
-					<li>
-						<div class="ch-item ch-img-1" style="background-image: url(../images/1.jpg);">
-							<div class="ch-info">
-								<h3>Theme Painting</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".quiz" style="font-size:12px">More</a></p>
-							</div>
-						</div>
-							<h5>Theme Painting</h5>
-					</li>
+				<ul class="ch-grid" id="literary">
+					
 					<li>
 						<div class="ch-item ch-img-2" style="background-image: url(../images/2.jpg);">
 							<div class="ch-info">
-								<h3>Cartooning</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
+								<h3>LIT Hunt</h3>
+								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".hunt" style="font-size:12px">More</a></p>
 							</div>
 						</div>
-						<h5>Cartooning</h5>
+						<h5>LIT Hunt</br>(Spot Event)</h5>
 					</li>
-					<li>
-						<div class="ch-item ch-img-3" style="background-image: url(../images/3.jpg);">
-							<div class="ch-info">
-								<h3>Rangoli</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
-							</div>
-						</div>
-						<h5>Rangoli</h5>
-					</li>
-					<li>
-						<div class="ch-item ch-img-1" style="background-image: url(../images/4.jpg);">
-							<div class="ch-info">
-								<h3>Face Painting</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
-							</div>
-						</div>
-							<h5>Face Painting</h5>
-					</li>
-					<li>
-						<div class="ch-item ch-img-2" style="background-image: url(../images/5.jpg);">
-							<div class="ch-info">
-								<h3>Diya Painting</h3>
-								<p><a href="#" class="btn btn-primary" data-toggle="modal" data-target=".ppt" style="font-size:12px">More</a></p>
-							</div>
-						</div>
-						<h5>Diya Painting</h5>
-					</li>
-
-				</ul>		
+					
+				</ul>
 				
 			</section>
 		</div>
         </div>
-  <!-- Optional JavaScript -->
+
+    <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-
- <!--Paper Presentation Model-->
+<!--General Quiz Model-->
 <div class="modal fade ppt quiz" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <p class="modal-title mt" id="exampleModalLongTitle">Paper Presentation</p>
+        <p class="modal-title mt" id="exampleModalLongTitle">General Quiz</p>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-<ol>
-	<li class="mbsh">Environmental & Sustainable Technology Development
-		<ul  class="mb">
-			<li>Energy Engineering</li>
-			<li>Environmental Engineering</li>
-			<li>New Process Technologies</li>
-			<li>Process Intensification</li>
-			<li>Green Chemistry</li>
-			<li>Green Engineering & Technology</li>
-			<li>Industrial Safety & Hazards etc.</li>
-		</ul>
-	</li>
-	<li class="mbsh">Environmental & Sustainable Technology Development
-		<ul  class="mb">
-			<li>Nano-Technology</li>
-			<li>Bio Process Technology</li>
-			<li>Membrane Science Technology</li>
-			<li>Polymer Science & Engineering</li>
-			<li>Pharmaceutical Technology</li>
-			<li>Novel Reactors and Catalysis</li>
-			<li>Smart Materials</li>
-			<li>Bio Polymers</li>
-			<li>Bio Chemical Engineering</li>
-			<li>Food Technology</li>
-			<li>Adsorption Technology</li>
-			<li>Bio Engineering etc.</li>
-		</ul>
-	</li>
-	<li class="mbsh">ETP Alternatives</li>
-</ol>
 
-<p class="mbsh">RULES</p>
+<p class="mbsh">DESCRIPTION:</p>
+<p  class="mb">Knowledge is power inde	ed. There is nothing more exciting than trying to figure out answer for various questions chosen from various domains of knowledge. So, for all the curious minds out there, this quiz is for you!</p>
+
+<p class="mbsh">TOPICS:</p>
+<p class="mb">The topics for the quiz are General awareness, Sports, Politics, Indian culture and History, Abbreviations, Monuments, Awards, Books & Author, Film Industry, etc.</p>
+
+<p class="mbsh">RULES:</p>
 <ul  class="mb">
-	<li>Each participating team may comprise of maximum 2 members (Min 1).</li>
-	<li>Kindly send in an abstract of your Design at </li>
-	<li>The abstract should be in .doc or .pdf format  or .ppt format only. </li>
-	<li>The font of the abstract should be “Times New Roman” font of 12 font size only and for specific keywords use font size 14 (Bold). Line spacing should be 1.5.</li>
-	<li>Participants whose abstracts are selected will be notified by email.</li>
-	<li>Kindly mention Intellectual Property Rights issues (if any) related to your project.</li>
-	<li>The decision of the judges and the event head will be treated as final and binding on all.</li>
-	<li>The organizers reserve the right to change the rules and specifications without prior notice.</li>
-	<li>All ‘undergraduate’ students with valid ID cards of their respective educational institutes are allowed to participate.</li>
+	<li>Team must comprise of 3 participants from same college
+</li><li>Screening test will be conducted for all the teams attended
+</li><li>Selected teams will participate in the final quiz.
+</li><li>Quiz consists of three rounds
+<ul><li>Round1 – Oral Questions
+</li><li>Round2 – Visual round
+</li><li>Round3 – Rapidfire</li></ul>
+</li><li>Mobile phones or any gadgets are not allowed while participating.
+</li>
 </ul>
 
-<p class="mbsh">FORMAT OF ABSTRACT</p><pre class="mb">Main Title
-Authors 1* Author 2#
-*email; Cell no
-#email; Cell no
-College Name; Branch
-Abstract (max.300 words)
-Key Words:
-References:
-</pre>
-
-<p class="mbsh">Presentation rules</p>
+<p class="mbsh">JUDGING CRITERIA:</p>
 <ul  class="mb">
-	<li>Presentation time is 10 min(participants are requested to submit their ppt files to the event heads at the time of the events).</li>
-	<li>Warning bell will be given at 8 min</li>
-	<li>5 min Q&A session.</li>
-	<li>Printed paper for judges should be in IEEE/IICHE format.</li>
-</ul>
-
-<p class="mbsh">Judging Criteria:</p>
-<ul  class="mb">
-	<li>Presentation</li>
-	<li>Concept reach to masses</li>
+	<li>Quiz master decision is final
+</li><li>Scores from each round are carried to next round
+</li><li>The team with highest score will win
+</li>
 </ul>
 
       </div>
       <div class="modal-footer">
 <div class="container">
   <div class="row justify-content-between  text-white">
-    <div class="col-sm-6">
+    <div class="col-lg-6">
       <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
  <b>Faculty Coordinator details:</b> 
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
- XXXXXXXXXX
-  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
-  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-  
+ Mr. M. Veeraiah
+  <a class="text-white" href="mailto:Veeraiah.motupalli@becbapatla.ac.in?subject=Bectagon%20Event">Veeraiah.motupalli@becbapatla.ac.in</a> 
+ 
 </pre>
     </div>
-    <div class="col-sm-6 text-white">
+    <!--div class="col-lg-6 text-white">
       <pre class="float-right bg-info text-white">
 	  
  <b>Student Coordinator details:</b> 
  XXXXXXXXXX
   <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
   <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
-
  XXXXXXXXXX
   <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
   <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
   
 </pre>
-    </div>
+    </div-->
   </div>
 </div>
 		
@@ -695,18 +264,384 @@ References:
   </div>
 </div>
 
-	<!--	<div class="center_img lit">
-			<img src="../images/lit.jpg" />
-		</div>
-    
-     <!-- Javascript Files
-     ================================================== -->
-	 
-    <!-- Bootstrap js -->
-    <script src="../js/bootstrap.min.js"></script>
-    <!-- for portfolio filter gallery -->
-    <script src="../js/modernizr.custom.js"></script>
-    <!-- Custom js-->
-    <script src="../js/custom.js"></script>
+ <!--Lit Hunt Model-->
+<div class="modal fade ppt hunt" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Lit Hunt</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<p class="mbsh">Spot event</p>
+<!--p  class="mb">Knowledge is power inde	ed. There is nothing more exciting than trying to figure out answer for various questions chosen from various domains of knowledge. So, for all the curious minds out there, this quiz is for you!</p>
+<p class="mbsh">TOPICS:</p>
+<p class="mb">The topics for the quiz are General awareness, Sports, Politics, Indian culture and History, Abbreviations, Monuments, Awards, Books & Author, Film Industry, etc.</p>
+<p class="mbsh">RULES:</p>
+<ul  class="mb">
+	<li>Team must comprise of 3 participants from same college
+</li><li>Screening test will be conducted for all the teams attended
+</li><li>Selected teams will participate in the final quiz.
+</li><li>Quiz consists of three rounds
+<ul><li>Round1 – Oral Questions
+</li><li>Round2 – Visual round
+</li><li>Round3 – Rapidfire</li></ul>
+</li><li>Mobile phones or any gadgets are not allowed while participating.
+</li>
+</ul>
+<p class="mbsh">JUDGING CRITERIA:</p>
+<ul  class="mb">
+	<li>Quiz master decision is final
+</li><li>Scores from each round are carried to next round
+</li><li>The team with highest score will win
+</li>
+</ul-->
+
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr.N.Sudheer
+  <a class="text-white" href="mailto:sudheerkumar.nadukuditi@becbapatla.ac.in?subject=Bectagon%20Event">sudheerkumar.nadukuditi@becbapatla.ac.in</a> 
+ 
+ Mr.M. Chandra Sekhar
+  <a class="text-white" href="mailto:chandrasekhar.mopati@becbapatla.ac.in?subject=Bectagon%20Event">chandrasekhar.mopati@becbapatla.ac.in</a> 
+ 
+</pre>
+    </div>
+    <!--div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div-->
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+
+ <!--Floor Crossing Model-->
+<div class="modal fade ppt fc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Floor Crossing</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<p class="mbsh">DESCRIPTION:</p>
+<p  class="mb">Floor crossing is a form of debate where the speaker literally debates against oneself.  Speaker starts by taking a stance on the topic and switches sides when judge says cross the floor.</p>
+
+<p class="mbsh">RULES:</p>
+<ul  class="mb">
+	<li>Topics are given on the spot</li>
+	<li>Each speaker has to speak for 3minutes on the given topic</li>
+</li>
+</ul>
+<p  class="mb">The order of changing must be as follows:<br>
+Speaker can start speaking about the topic in order of supporting or opposing the topic depends on his/her interest. After certain point of time, speaker should follow the instructions of examiner to switch to the opposite of what he/she started about the topic after listening to “cross the floor” by examiner. But the points should be contradicting. 
+</p>
+<p class="mbsh">JUDGING CRITERIA:</p>
+<ul  class="mb">
+	<li>40% content
+</li><li>20% non-verbal communication-Eye contact, body language and poise
+</li><li>20% voice and articulation-volume, pace, rhythm, intonation and proper pronunciation 
+</li><li>20% language -Appropriateness and accurate use of language
+</li>
+</ul>
+
+<p class="mbsh">EXAMPLE TOPICS:</p>
+<ul class="mb"><li>Animal testing
+</li><li>Censor in media
+</li><li>School uniforms
+</ul>
+
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr. K. kalyan
+  <a class="text-white" href="mailto:kalyankumar.kakumanu@becbapatla.ac.in?subject=Bectagon%20Event">kalyankumar.kakumanu@becbapatla.ac.in</a> 
+ 
+</pre>
+    </div>
+    <!--div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div-->
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+
+ <!--Stand Up Comedy Model-->
+<div class="modal fade ppt suc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Stand Up Comedy</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<p class="mbsh">DESCRIPTION:</p>
+<p  class="mb">Stand-up comedy is a comic style in which a comedian performs in front of a live audience, usually speaking directly to them. The performer is commonly known as a comic, stand-up comic, comedian, stand-up comedian, or simply a stand-up. In stand-up comedy, the comedian recites a grouping of humorous stories, jokes and one-liners typically called a monologue. Stand-up comedians can use props, music or magic tricks to enhance their acts. </p>
+
+<p class="mbsh">RULES:</p>
+<ul  class="mb">
+	<li>Duration is of 5 to 10 minutes</li>
+	<li>Should express only in English </li>
+</ul>
+<p class="mbsh">JUDGING CRITERIA:</p>
+<ul  class="mb">
+	<li>Innovative way of expressions 
+</li><li>Humorous 
+</li><li>Attracting people and should involve audience too
+</li><li>Voice and articulation-volume, pace, rhythm, intonation and proper pronunciation
+</li>
+</ul>
+
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Dr. P.V. Naga Malleshwara Rao
+  <a class="text-white" href="mailto:pvnmalleswararao.pedapudi@becbapatla.ac.in?subject=Bectagon%20Event">pvnmalleswararao.pedapudi@becbapatla.ac.in</a> 
+ 
+</pre>
+    </div>
+    <!--div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div-->
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+
+ <!--Dear Diary Model-->
+<div class="modal fade ppt ddiary" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Dear Diary</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<p class="mbsh">DESCRIPTION:</p>
+<p  class="mb">Everyone has stories; they’d rather keep in a locker chest. With the help of a torn entry from the stolen dairy of a stranger, step into that person’s shoes and use your imagination to pen down a tale worth hiding.<br>
+We all know half completed stories are more exasperating than even complete stories with lousy endings. While there are people waiting patiently for the ending, there are those creative folk who are willing to put their pen on paper to end it in their own way. This event is exclusively for those who want to put their pen on paper. Participants are given an entry from a dairy of a person and they get to continue that story.
+</p>
+
+<p class="mbsh">RULES:</p>
+<ul  class="mb">
+	<li>The participants are given an entry from a dairy with a specified timeline, each participant’s entries being disparate.</li>
+	<li>The participants have to continue the story in the entry and end it.</li>
+</ul>
+<p class="mbsh">JUDGING CRITERIA:</p>
+<ul  class="mb">The entries are judged on:
+	<li>Grammar 
+</li><li>Relevance of the story to the given prompt  
+</li><li>Vocabulary 
+</li><li>Consistency with the given timeline 
+</li>
+</ul>
+
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mr. Ch. Suresh
+  <a class="text-white" href="mailto:suresh.chimata@becbapatla.ac.in?subject=Bectagon%20Event">suresh.chimata@becbapatla.ac.in</a> 
+ 
+</pre>
+    </div>
+    <!--div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div-->
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+
+ <!--Ad-Zap Model-->
+<div class="modal fade ppt az" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title mt" id="exampleModalLongTitle">Ad-Zap</p>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+<p class="mbsh">DESCRIPTION:</p>
+<p  class="mb">Ad-Zap is the event conducted to advertise any program or any event in an innovative way. This is used to promote about our own goods and increase the demand to that product.</p>
+
+<p class="mbsh">RULES:</p>
+<ul  class="mb">
+	<li>Topic will be given on spot
+</li><li>Duration is about 5minutes
+</li><li>The team consists of 3 participants of same college
+</li><li>Should convey the given theme/topic
+</li><li>Should express only in English 
+</li>
+</ul>
+<p class="mbsh">JUDGING CRITERIA:</p>
+<ul  class="mb">
+	<li>Spontaneity and innovative way of expressions
+</li><li>Eye contact
+</li><li>Attracting people and should involve audience too
+</li>
+</ul>
+<p class="mbsh">EXAMPLES:</p>
+<ul  class="mb">
+	<li>Mobile Phones Advertisement
+</li><li>Best Advertising Agency
+</li>
+</ul>
+      </div>
+      <div class="modal-footer">
+<div class="container">
+  <div class="row justify-content-between  text-white">
+    <div class="col-lg-6">
+      <pre class="text-white bg-primary float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Mrs. K. Venkata lakshmi
+  <a class="text-white" href="mailto:venkatalakshi.kancheti@becbapatla.ac.in?subject=Bectagon%20Event">venkatalakshi.kancheti@becbapatla.ac.in</a> 
+ 
+</pre>
+    </div>
+    <!--div class="col-lg-6 text-white">
+      <pre class="float-right bg-info text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+ XXXXXXXXXX
+  <a class="text-white" href="tel:+91-999-999-9999">9999999999</a>
+  <a class="text-white" href="mailto:xxxxxx@gmail.com?subject=Bectagon%20Event">xxxxxx@gmail.com</a>
+  
+</pre>
+    </div-->
+  </div>
+</div>
+		
+    </div>
+    </div>
+  </div>
+</div>
+  
+<!-- Footer -->
+<div style="padding-top:108px;">
+	
+	</div>
+<footer class="page-footer font-small indigo" style="background-color:#3f51b5;opacity:.65;">
+
+    <div class="container-fluid" style="font-size:20px;color:white;">
+  <div class="row justify-content-between  text-white">
+    <div class="col-md-6">
+      <pre class="text-white float-left"><!--Becareful while changing the order Change the order-->
+ <b>Faculty Coordinator details:</b> 
+ Dr. Sk.Shabreen Sultana
+  <a class="text-white" href="tel:+91-9182393916">9182393916</a>
+ 
+</pre>
+    </div>
+    <div class="col-md-6 text-white">
+      <pre class="float-right text-white">
+	  
+ <b>Student Coordinator details:</b> 
+ M  . Jitendra Reddy
+  <a class="text-white" href="tel:+91-9133185141">9133185141</a>
+  
+  V.S.V..Gayathri
+  <a class="text-white" href="mailto:veenagayatri1@gmail.com?subject=Bectagon%20Event">veenagayatri1@gmail.com</a>
+  
+</pre>
+    </div>
+  </div>
+</div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color:#324191;color:white;">
+	Copyright © 2019 <a href="http://www.becbapatla.ac.in" style="color:white;" target="_blank">Bapatla Engineering College</a> | All Rights Reserved.
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
   </body>
 </html>
