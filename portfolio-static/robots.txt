@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://aseef0406.github.io/sitemap.xml
